@@ -1,3 +1,5 @@
+Try [here](https://piggame-freskies.netlify.app)
+
 This is a learning project.
 The challenge was made by Jonas in his course of js.
 
