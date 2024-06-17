@@ -1,0 +1,102 @@
+/* ############################################ */
+/* BELOW 1440px */
+/* ############################################ */
+
+@media (max-width: 90em) {
+	.game {
+		width: 70vw;
+	}
+}
+
+/* ############################################ */
+/* BELOW 1200px */
+/* ############################################ */
+
+@media (max-width: 75em) {
+	.game {
+		width: 80vw;
+	}
+}
+
+/* ############################################ */
+/* BELOW 1088px */
+/* ############################################ */
+
+@media (max-width: 68em) {
+	.game {
+		width: 90vw;
+	}
+}
+
+/* ############################################ */
+/* BELOW 896px */
+/* ############################################ */
+@media (max-width: 56em) {
+	.game {
+		grid-template-columns: 1fr;
+		height: 90vh;
+	}
+
+	.player {
+		flex-direction: row;
+	}
+
+	.game-engine {
+		height: auto;
+		width: 100%;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		flex-direction: row;
+	}
+
+	.roll-hold-container {
+		gap: 2rem;
+	}
+}
+
+/* ############################################ */
+/* BELOW 624px */
+/* ############################################ */
+@media (max-width: 39em) {
+	.dice {
+		height: 10rem;
+		width: 10rem;
+	}
+
+	.btn {
+		padding: 0.6rem 1.5rem;
+	}
+}
+
+/* ############################################ */
+/* BELOW 448px */
+/* ############################################ */
+@media (max-width: 28em) {
+	html {
+		font-size: 50%;
+	}
+
+	.btn {
+		font-size: 1.6rem;
+	}
+}
+
+/* ############################################ */
+/* BELOW 448px and OVER 704px height */
+/* ############################################ */
+@media (max-width: 28em) and (min-height: 44em) {
+	html {
+		font-size: 50%;
+	}
+
+	.player {
+		flex-direction: column;
+		padding: 6rem 0;
+	}
+
+	.dice {
+		height: 8rem;
+		width: 8rem;
+	}
+}
